@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,21 +10,27 @@
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
         }
-        .container {
-            display: flex;
-            max-width: 1000px;
-            margin-top: 50px;
-            padding: 30px;
-            background-color: white;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
+
+            .container {
+                display: flex;
+                flex-wrap: wrap; /* Allow content to wrap */
+                width: 100%; /* Full page width */
+                min-height: 100vh; /* Full viewport height */
+                padding: 30px;
+                background-color: white;
+                border-radius: 8px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                box-sizing: border-box; /* Adjust for padding */
+            }
+            
+        
         .left-column {
             flex: 1;
             margin-right: 30px;
             padding-right: 100px;
-            
         }
         .right-column {
             flex: 2;
@@ -72,14 +79,11 @@
             <span style="color: blue;">📍</span> Location: Balanda Kalunga, Raurkela-770031 <br>
             <span style="color: blue;">💻</span> GitHub: <a href="https://github.com/BarsaKujur" target="_blank">github.com/BarsaKujur</a> <br>
             <span style="color: blue;">🔗</span> LinkedIn: <a href="https://www.linkedin.com/in/barsa-kujur-37ba43291" target="_blank">linkedin.com/in/barsa-kujur-37ba43291</a>
-                      
-                      
         </header>
-
 
         <section>
             <h2 class="section-title">Personal Details</h2>
-            <p><strong>DOB:</strong> 17th march 2005</p>
+            <p><strong>DOB:</strong> 17th March 2005</p>
         </section>
 
         <section>
@@ -94,13 +98,13 @@
             <h2 class="section-title">LANGUAGES</h2>
             <ul>
                 <li>Hindi</li>
-                <li>odia</li>
+                <li>Odia</li>
                 <li>English</li>
             </ul>
         </section>
     </div>
     
-    <div class="right-column" >
+    <div class="right-column">
         <div style="text-align: right;">
             <img src="me.jpg" alt="Description" style="width: 150px; height: 114px;">
         </div>
