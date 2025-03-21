@@ -15,14 +15,14 @@
 
             .container {
                 display: flex;
-                flex-wrap: wrap; /* Allow content to wrap */
-                width: 100%; /* Full page width */
-                min-height: 100vh; /* Full viewport height */
+                flex-wrap: wrap; 
+                width: 100%; 
+                min-height: 100vh; 
                 padding: 30px;
                 background-color: white;
                 border-radius: 8px;
                 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-                box-sizing: border-box; /* Adjust for padding */
+                box-sizing: border-box;
             }
             
         
@@ -62,6 +62,27 @@
         .languages ul {
             padding-left: 20px;
         }
+        .left-column ul {
+            list-style-position: inside; 
+            padding: 0; 
+            margin-left: 0; 
+        }
+        
+        .left-column li {
+            padding-left: 0; 
+        }
+        /*.right-column ul {
+            list-style-position: inside; 
+           padding: 0; 
+            margin: 0;  
+        }
+        
+        .right-column li {
+            padding-left: 0;  
+            text-align: left; 
+        }*/
+        
+        
     </style>
 </head>
 <body>
@@ -106,12 +127,12 @@
     
     <div class="right-column">
         <div style="text-align: right;">
-            <img src="me.jpg" alt="Description" style="width: 150px; height: 114px;">
+            <img src="me.jpg" alt="Description" style="width: 120px; height: 114px;">
         </div>
     
         <section>
             <h2 class="section-title">Objective</h2>
-            <p>I am eager to take on challenging opportunities where I can effectively apply my skills to drive success while continuously learning and enhancing my abilities.</p>
+            <p>I am driven to undertake complex and innovative challenges where I can leverage my expertise and proficiency to deliver impactful results, while engaging in continuous professional development to enhance my technical and analytical capabilities.</p>
         </section>
 
         <section class="experience">
